@@ -135,10 +135,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -657,6 +657,10 @@
     [
       "c6246201-b9a6-4df1-a90f-d6ccbe22ca4d",
       "MCU"
+    ],
+    [
+      "046093c5-fb2a-4e8d-992c-23a84ae75cd9",
+      "Camera"
     ]
   ],
   "text_variables": {}

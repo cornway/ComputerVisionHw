@@ -1,4 +1,4 @@
-25071243385500002
+25072997252639154
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58533,6 +58533,13 @@ FPC-SMD_8P-P0.50_AFC24-S08FCA-00
 0
 10
 10
+Grinreflex
+FPC-SMD_24P-P0.50_SHOU-HAN_CTSJ-H2.0
+
+
+0
+26
+26
 Grinreflex
 IND-SMD_L2.5-W2.0_SWPA252012S
 
