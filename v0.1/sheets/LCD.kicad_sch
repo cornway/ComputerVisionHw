@@ -1473,7 +1473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b675b60-321d-4c34-8e85-cbc00b7680ce")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 193.04 69.85 0)
 			(effects
 				(font
@@ -1523,7 +1523,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1709,7 +1709,7 @@
 			(uuid "7a673fc8-db90-4fc2-9664-bd9328d3dea4")
 		)
 		(instances
-			(project "v0.1"
+			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
 					(reference "Q1")
 					(unit 1)
@@ -1779,7 +1779,7 @@
 			(uuid "14361b4c-9cf5-45be-896d-b24e751e3173")
 		)
 		(instances
-			(project "v0.1"
+			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
 					(reference "C17")
 					(unit 1)
@@ -1918,7 +1918,7 @@
 			(uuid "538caaca-c3bf-4d39-8ba5-ba5f5d2364e6")
 		)
 		(instances
-			(project "v0.1"
+			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
 					(reference "U6")
 					(unit 1)
@@ -1988,7 +1988,7 @@
 			(uuid "59927df3-09bc-4ad6-8002-16229f258ad1")
 		)
 		(instances
-			(project "v0.1"
+			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
 					(reference "R13")
 					(unit 1)
@@ -2076,7 +2076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d088d2cd-1d04-4f9a-bba8-4801bd7f0747")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 193.04 116.84 0)
 			(effects
 				(font
@@ -2126,7 +2126,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd6fcaf-3647-442f-8d91-08bd6f90afc5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 148.59 143.51 0)
 			(effects
 				(font
@@ -2190,9 +2190,9 @@
 			(uuid "6f3216e0-9416-4624-9fd1-6b792d116769")
 		)
 		(instances
-			(project "v0.1"
+			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/5c0eb129-997c-46e4-80fd-8da3e9e620de"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

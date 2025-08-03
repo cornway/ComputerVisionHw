@@ -1,4 +1,4 @@
-25072997252639154
+25078259241844971
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58513,6 +58513,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Grinreflex
+CRYSTAL-SMD_4P-L3.2-W2.5-BL-1
+
+
+0
+4
+4
+Grinreflex
 DFN-6_L3.0-W3.0-P0.95-BL-EP-1
 
 
@@ -58548,12 +58555,26 @@ IND-SMD_L2.5-W2.0_SWPA252012S
 2
 2
 Grinreflex
+KEY-SMD_KSS-2G
+
+
+0
+2
+2
+Grinreflex
 LQFP-144_L20.0-W20.0-P0.50-LS22.0-BL
 
 
 0
 144
 144
+Grinreflex
+OSC-SMD_2P-L3.2-W1.5
+
+
+0
+2
+2
 Grinreflex
 PDFN-8_L3.1-W3.0-P0.65-LS3.3-BL
 

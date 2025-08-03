@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|90599000|54499000|ea39676a-0dc5-4f7d-9fea-c69392d6b96c|73362f10-5dc1-497f-801f-c1b45a062899",
+          ""
+        ],
+        [
+          "copper_edge_clearance|90599000|54699000|ea39676a-0dc5-4f7d-9fea-c69392d6b96c|2ce0e47f-09d5-4a95-8ca4-d91fe9aa6da4",
+          ""
+        ],
+        [
+          "copper_edge_clearance|90599000|60099000|40f72599-64e1-43ea-9493-9a9c94eeb622|89c907ac-0c10-43c4-aec6-cca739704dbe",
+          ""
+        ],
+        [
+          "copper_edge_clearance|90599000|60331421|40f72599-64e1-43ea-9493-9a9c94eeb622|289d2f74-b56d-46ee-aca1-ba126462a983",
+          ""
+        ],
+        [
+          "silk_over_copper|100202230|59212708|7e55a02e-bdf3-4a0c-8012-941a62ec0d94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|100202230|59212708|925086cb-31fa-44b1-8761-b3ab24771e4a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,7 +150,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -133,13 +158,13 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -621,7 +646,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Clock and Reset",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -661,6 +686,10 @@
     [
       "046093c5-fb2a-4e8d-992c-23a84ae75cd9",
       "Camera"
+    ],
+    [
+      "71a855a2-7e54-4076-a3fd-ce99cd30d9cf",
+      "Clock_Reset"
     ]
   ],
   "text_variables": {}
