@@ -4645,7 +4645,7 @@
 		(at 88.9 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4937,6 +4937,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C479055"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5676d79-3f59-405f-992c-5d0cb84d6a85")
 		)
@@ -5044,6 +5053,15 @@
 			)
 		)
 		(property "LCSC Part Name" "C79313"
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C79313"
 			(at 64.77 34.29 0)
 			(effects
 				(font
@@ -6262,7 +6280,7 @@
 		(at 80.01 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6414,6 +6432,15 @@
 			)
 		)
 		(property "LCSC Part Name" "XC6206P152MR"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C56110"
 			(at 53.34 127 0)
 			(effects
 				(font
@@ -6748,6 +6775,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2969933"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "4ccc9121-7209-44d4-80c1-df1f2623262a")
 		)
@@ -6783,7 +6819,7 @@
 		(at 147.32 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7319,7 +7355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Grinreflex:SOD-523F_L1.2-W0.8-LS1.7-RD"
 			(at 132.08 40.64 0)
 			(effects
 				(font
@@ -7384,6 +7420,15 @@
 		)
 		(property "LCSC Part Name" "C136161"
 			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C136161"
+			(at 132.08 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,6 +7706,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C383210"
+			(at 40.64 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48bef1c8-66d2-411d-94ec-34d41e4154ba")
 		)
@@ -7817,7 +7871,7 @@
 		(at 88.9 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7968,6 +8022,15 @@
 			)
 		)
 		(property "LCSC Part Name" " C36400"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C36400"
 			(at 90.17 31.75 0)
 			(effects
 				(font
@@ -8851,7 +8914,7 @@
 		(at 121.92 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9081,6 +9144,15 @@
 			)
 		)
 		(property "LCSC Part Name" "XC6206P282MR"
+			(at 53.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C479055"
 			(at 53.34 162.56 0)
 			(effects
 				(font

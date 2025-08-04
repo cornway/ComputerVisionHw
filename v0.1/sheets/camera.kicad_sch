@@ -2045,7 +2045,7 @@
 		(at 154.94 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5050997e-d8cc-4d1e-8eff-5d0bf1089cbe")
@@ -2111,7 +2111,7 @@
 		(at 160.02 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "54543014-766e-4769-b48d-cd389a95d522")
@@ -2255,6 +2255,15 @@
 			)
 		)
 		(property "LCSC Part Name" "FPC0.5-24P/上接抽拉"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C9900012923"
 			(at 168.91 91.44 0)
 			(effects
 				(font

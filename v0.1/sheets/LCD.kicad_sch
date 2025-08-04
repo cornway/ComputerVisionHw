@@ -1699,6 +1699,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C10487"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7c37d05-f359-4971-a3d7-6001e4d0e6af")
 		)
@@ -1879,6 +1888,15 @@
 			)
 		)
 		(property "LCSC Part Name" "翻盖式 双侧触点/上下接 P数:8P 间距:0.5mm"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6364658"
 			(at 189.23 93.98 0)
 			(effects
 				(font

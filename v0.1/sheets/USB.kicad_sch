@@ -6627,6 +6627,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2965326"
+			(at 173.99 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "034f51f1-6f60-47aa-9a3a-9101fc7dee6f")
 		)
@@ -6763,6 +6772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1974707"
+			(at 114.3 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a907a0b-4220-4edf-af9c-746621cb0562")
 		)
@@ -6868,6 +6886,15 @@
 			)
 		)
 		(property "LCSC Part Name" "TCPP01-M12"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1121848"
 			(at 204.47 66.04 0)
 			(effects
 				(font
@@ -7825,7 +7852,7 @@
 		(at 207.01 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7977,6 +8004,15 @@
 			)
 		)
 		(property "LCSC Part Name" "Type-C 母 卧贴"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2927037"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -8491,6 +8527,15 @@
 			)
 		)
 		(property "LCSC Part Name" "两路 共模滤波器"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2651144"
 			(at 199.39 105.41 0)
 			(effects
 				(font

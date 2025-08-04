@@ -1704,6 +1704,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C221791"
+			(at 125.73 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5285f83-c55e-46a4-a95a-71be28d3d960")
 		)
@@ -2029,6 +2038,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C145140"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eab8acb8-a6cb-4a57-b6d3-df1f488cb568")
 		)
@@ -2201,6 +2219,15 @@
 			)
 		)
 		(property "LCSC Part Name" "16MHz ±10ppm 8pF"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C193746"
 			(at 73.66 97.79 0)
 			(effects
 				(font

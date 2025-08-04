@@ -82,6 +82,22 @@
         [
           "silk_over_copper|100202230|59212708|925086cb-31fa-44b1-8761-b3ab24771e4a|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "silk_overlap|124385843|50840368|3e636860-667c-4072-be30-d9d8679295de|c4670a0a-b92f-4a37-8cbb-6573013a79fe",
+          ""
+        ],
+        [
+          "silk_overlap|126179398|51254819|42233194-e4ac-476c-982a-de6e18588288|cb318176-f7f4-4ba5-82c6-1d13d7a6e3ff",
+          ""
+        ],
+        [
+          "silk_overlap|127061905|50754819|c4670a0a-b92f-4a37-8cbb-6573013a79fe|cb318176-f7f4-4ba5-82c6-1d13d7a6e3ff",
+          ""
+        ],
+        [
+          "silk_overlap|130047619|52254819|56243e5a-dccf-4210-ae5b-7b5dc6b8945b|c66c27e5-d132-4824-bf08-76fc865accb6",
+          ""
         ]
       ],
       "meta": {
@@ -160,10 +176,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.6,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -250,8 +266,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -569,16 +585,94 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
         },
         {
           "group_by": true,
@@ -597,24 +691,12 @@
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

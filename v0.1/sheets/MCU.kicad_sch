@@ -4671,16 +4671,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c43f86b-2319-49ed-8ca4-2650e17cec6f")
-	)
-	(wire
-		(pts
 			(xy 106.68 137.16) (xy 106.68 149.86)
 		)
 		(stroke
@@ -6149,6 +6139,16 @@
 		)
 		(uuid "fe591d31-1bf3-4db6-b247-1f0090386db7")
 	)
+	(wire
+		(pts
+			(xy 50.8 137.16) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe663770-1747-4c47-bd9e-7e1ce0674c87")
+	)
 	(label "HSPI1_SIO7"
 		(at 83.82 149.86 90)
 		(effects
@@ -6582,6 +6582,17 @@
 		)
 		(uuid "046bde48-02af-45c6-bc5a-52f54cb2bbc2")
 	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 50.8 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0abc16d5-0e8d-4668-861c-13e9768771e5")
+	)
 	(hierarchical_label "PB14"
 		(shape input)
 		(at 127 33.02 90)
@@ -6922,17 +6933,6 @@
 			(justify right)
 		)
 		(uuid "eee06be4-4b78-4b2d-a930-3949c01d7055")
-	)
-	(hierarchical_label "NRST"
-		(shape input)
-		(at 104.14 33.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f37e009c-a27d-40bc-b530-5388db78b6a5")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -8764,6 +8764,15 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 4096KB flash, 3026KB RAM, 101 GPIO, LQFP144"
 			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22445371"
+			(at 132.08 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

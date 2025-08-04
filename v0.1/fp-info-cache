@@ -1,4 +1,4 @@
-25078259241844971
+25080013538212884
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58591,6 +58591,13 @@ QFN-12_L3.0-W3.0-P0.50-BL-EP1.5
 13
 Grinreflex
 SOD-323_L1.8-W1.3-LS2.5-RD
+
+
+0
+2
+2
+Grinreflex
+SOD-523F_L1.2-W0.8-LS1.7-RD
 
 
 0
