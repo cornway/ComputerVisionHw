@@ -5216,7 +5216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ac80ed-d350-4bd2-912a-93c804ea9d2b")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 240.03 73.6599 0)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/d7fb9efc-8e5c-4e70-8762-098c2f859553"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7155,7 +7155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8164604c-10ce-4ebf-9f3e-1d8d9241796c")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 102.87 48.2599 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -7209,7 +7209,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/d7fb9efc-8e5c-4e70-8762-098c2f859553"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca118c4-4d49-4ded-9dbf-8569633662c7")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 102.87 35.5599 0)
 			(effects
 				(font
@@ -7824,7 +7824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -7860,7 +7860,7 @@
 		(instances
 			(project ""
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/d7fb9efc-8e5c-4e70-8762-098c2f859553"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9267,7 +9267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5e4fae-4848-4729-9a6c-032976671fbd")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 127 78.7399 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/d7fb9efc-8e5c-4e70-8762-098c2f859553"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
