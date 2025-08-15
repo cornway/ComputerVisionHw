@@ -4885,16 +4885,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 31.75) (xy 180.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08eee0a6-8075-413e-aa96-080936a670f0")
-	)
-	(wire
-		(pts
 			(xy 111.76 137.16) (xy 111.76 149.86)
 		)
 		(stroke
@@ -5415,6 +5405,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 31.75) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51786eea-a3c8-4b8d-8ff8-7d0f28db3c1c")
+	)
+	(wire
+		(pts
 			(xy 111.76 38.1) (xy 111.76 55.88)
 		)
 		(stroke
@@ -5445,13 +5445,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 193.04 55.88)
+			(xy 193.04 31.75) (xy 193.04 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b882772-d247-4a55-bca0-fff34d53a80c")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fda3e6a-45c1-4c76-b4b9-752fa0b34bfb")
 	)
 	(wire
 		(pts
@@ -6175,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 40.64) (xy 195.58 55.88)
+			(xy 195.58 31.75) (xy 195.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6475,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 101.6 156.21)
+			(xy 101.6 137.16) (xy 101.6 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6642,16 +6652,6 @@
 			(type default)
 		)
 		(uuid "eda70e05-7acb-4403-819c-7713603cfffe")
-	)
-	(wire
-		(pts
-			(xy 182.88 31.75) (xy 182.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0ce01b-7e19-493f-8df1-ae2fb0d06c8a")
 	)
 	(bus
 		(pts
@@ -7382,10 +7382,11 @@
 	)
 	(hierarchical_label "DCMI_PCLK"
 		(shape input)
-		(at 195.58 40.64 90)
+		(at 195.58 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 15 1)
 			)
 			(justify left)
 		)
@@ -7393,7 +7394,7 @@
 	)
 	(hierarchical_label "hspi1_ncs"
 		(shape input)
-		(at 101.6 156.21 270)
+		(at 101.6 176.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7415,10 +7416,11 @@
 	)
 	(hierarchical_label "DCMI_HS"
 		(shape input)
-		(at 193.04 40.64 90)
+		(at 193.04 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 7 1)
 			)
 			(justify left)
 		)
@@ -7459,7 +7461,7 @@
 	)
 	(hierarchical_label "SPI2_MOSI"
 		(shape output)
-		(at 180.34 31.75 90)
+		(at 182.88 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7551,6 +7553,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 7 1)
 			)
 			(justify left)
 		)
@@ -7558,7 +7561,7 @@
 	)
 	(hierarchical_label "SPI2_SCK"
 		(shape output)
-		(at 182.88 31.75 90)
+		(at 180.34 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7761,7 +7764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 271.78 27.94 0)
 			(effects
 				(font
@@ -8673,7 +8676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "464c1cb7-9cbe-43ae-99e6-6dff1f82e317")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 19.304 74.676 0)
 			(effects
 				(font
@@ -8726,7 +8729,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/c6246201-b9a6-4df1-a90f-d6ccbe22ca4d"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b4b5c05-ea33-40e8-9ffc-b323f0327260")
-		(property "Reference" "JP11"
+		(property "Reference" "JP10"
 			(at 24.638 69.85 0)
 			(effects
 				(font
@@ -8794,7 +8797,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/c6246201-b9a6-4df1-a90f-d6ccbe22ca4d"
-					(reference "JP11")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -11074,7 +11077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9745e9b-5c9e-413d-af24-307120d5f01e")
-		(property "Reference" "JP10"
+		(property "Reference" "JP9"
 			(at 26.416 77.724 0)
 			(effects
 				(font
@@ -11127,7 +11130,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/c6246201-b9a6-4df1-a90f-d6ccbe22ca4d"
-					(reference "JP10")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -11227,7 +11230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 162.56 0)
 			(effects
 				(font
@@ -11296,7 +11299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 27.94 0)
 			(effects
 				(font

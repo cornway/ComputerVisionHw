@@ -1305,6 +1305,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 86.36) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdd27cb-8237-4864-9819-7cbfa4ca8c0f")
+	)
+	(wire
+		(pts
 			(xy 66.04 137.16) (xy 73.66 137.16)
 		)
 		(stroke
@@ -1392,6 +1402,16 @@
 			(type default)
 		)
 		(uuid "407112e7-0eb5-420c-bbba-e5b04ad5222a")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ba3577-a4d2-4d8f-b208-989377ea409e")
 	)
 	(wire
 		(pts
@@ -1717,6 +1737,17 @@
 		)
 		(uuid "c913c020-3723-4a29-88c5-86157fc55bd4")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 153.67 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f26caa-4dd9-436a-9d36-beb7c8fd9747")
+	)
 	(hierarchical_label "OSC_2"
 		(shape input)
 		(at 82.55 92.71 90)
@@ -1958,7 +1989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -2037,7 +2068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.89 97.79 0)
 			(effects
 				(font
@@ -2106,7 +2137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 130.81 0)
 			(effects
 				(font
@@ -2184,7 +2215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 100.33 0)
 			(effects
 				(font
@@ -2385,7 +2416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -2653,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -2854,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.81 81.28 0)
 			(effects
 				(font
@@ -2900,6 +2931,76 @@
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/71a855a2-7e54-4076-a3fd-ce99cd30d9cf"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae2e332e-6b25-4fd4-9e0b-340a2ad462c0")
+		(property "Reference" "R20"
+			(at 156.21 82.5499 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 156.21 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1370a177-56a4-478e-adfa-955cea3bfc74")
+		)
+		(pin "2"
+			(uuid "3b2bd7d0-cf5c-4bf1-8483-7e92d7e3efe9")
+		)
+		(instances
+			(project "v0.1"
+				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/71a855a2-7e54-4076-a3fd-ce99cd30d9cf"
+					(reference "R20")
 					(unit 1)
 				)
 			)

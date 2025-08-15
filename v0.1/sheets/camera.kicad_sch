@@ -1947,7 +1947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "112fbd78-3a4c-44ac-8938-83348ec4decf")
-		(property "Reference" "JP13"
+		(property "Reference" "JP12"
 			(at 148.082 121.92 0)
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/046093c5-fb2a-4e8d-992c-23a84ae75cd9"
-					(reference "JP13")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Grinreflex:FPC-SMD_24P-P0.50_SHOU-HAN_CTSJ-H2.0"
+		(property "Footprint" "Grinreflex:FFC-SMD_24P-P0.50_FH34SRJ-24S-0.5SH"
 			(at 168.91 91.44 0)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1bca518-770e-4396-a954-979f088d9283")
-		(property "Reference" "JP12"
+		(property "Reference" "JP11"
 			(at 148.082 119.38 0)
 			(effects
 				(font
@@ -2788,7 +2788,7 @@
 		(instances
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/046093c5-fb2a-4e8d-992c-23a84ae75cd9"
-					(reference "JP12")
+					(reference "JP11")
 					(unit 1)
 				)
 			)

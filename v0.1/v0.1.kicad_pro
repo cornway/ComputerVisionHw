@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -73,6 +73,30 @@
         ],
         [
           "copper_edge_clearance|90599000|60331421|40f72599-64e1-43ea-9493-9a9c94eeb622|289d2f74-b56d-46ee-aca1-ba126462a983",
+          ""
+        ],
+        [
+          "silk_edge_clearance|84025000|52919000|100840ee-6fea-496d-b463-ee1768ed2ff9|a7b21185-7891-44b9-aeea-b1e00610fc9e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|84025000|61879000|100840ee-6fea-496d-b463-ee1768ed2ff9|1c220859-1a86-4ad2-80a2-d9548f68cb83",
+          ""
+        ],
+        [
+          "silk_over_copper|113130000|68800000|d3c000ef-9430-4090-95c2-9ed69ec70af8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|113130000|82800000|89450585-2a4e-4327-b80f-8d8d79942bff|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|113130000|82800000|f956bad7-97ed-4a4e-a6a9-6a7b998f56a3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|133966555|61287503|e9d8f6f1-bd32-4d10-a194-fd8939c7a4ab|8e40fcf0-9b0f-41da-b3e1-b4bdb7a6284d|F.Cu",
           ""
         ]
       ],
