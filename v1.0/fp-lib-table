@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Grinreflex")(type "KiCad")(uri "/home/roma/Work/OCV/pcb/Libs/Grinreflex.pretty")(options "")(descr ""))
+)
