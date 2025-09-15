@@ -60,22 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|79729000|110250000|7c7977a1-ebba-40db-b03a-7648a9fd6c7a|9800d61d-52f2-44ba-a577-11927db12d85",
-          ""
-        ],
-        [
-          "copper_edge_clearance|79729000|110450000|7c7977a1-ebba-40db-b03a-7648a9fd6c7a|4f46f74d-7b48-43ad-816d-f5ba14fb4369",
-          ""
-        ],
-        [
-          "copper_edge_clearance|79729000|115850000|3bdc5625-58fa-41a6-b2ff-906c0c55fb8a|d72d2b47-093d-4433-a18b-dec74e8cbca4",
-          ""
-        ],
-        [
-          "copper_edge_clearance|79729000|116082421|3bdc5625-58fa-41a6-b2ff-906c0c55fb8a|2e29acc4-4d0d-4923-8422-cfb051c82e3b",
-          ""
-        ],
-        [
           "silk_over_copper|108850000|91450001|242e8486-3e0d-4164-b719-31fa8b4fddca|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -484,7 +468,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -666,14 +650,6 @@
     [
       "4276d1e6-613e-409d-8b9b-79d391866e1c",
       "Root"
-    ],
-    [
-      "b229fbcf-b4b0-494a-a4c1-419a8780baaf",
-      "USB"
-    ],
-    [
-      "d776dc0b-1767-4e2c-8a16-1a199201d0b3",
-      "FLASH"
     ],
     [
       "e7a16899-b277-4c1e-8441-a72fc15dd4e7",
