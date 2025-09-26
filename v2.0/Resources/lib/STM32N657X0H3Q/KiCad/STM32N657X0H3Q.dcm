@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32N657X0H3Q
+D High performance Arm Cortex-M55 MCU, 800MHz, 4.2MB SRAM, Neural-ART accelerator 600 GOPS, NeoChrom GPU, JPEG Codec, H-264 enc, HW crypto
+K
+F https://www.st.com/resource/en/datasheet/stm32n657a0.pdf
+$ENDCMP
+#
+#End Doc Library

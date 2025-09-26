@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32N657X0H3Q
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=264
+Version=2.1
+Released=2024-12-14 05:05:17
+Downloaded=2025-09-19 10:16:17
+3D=Y

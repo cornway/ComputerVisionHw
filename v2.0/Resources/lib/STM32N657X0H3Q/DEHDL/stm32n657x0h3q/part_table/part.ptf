@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32N657X0H3Q'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32N657X0H3Q" (!) = "", "BGA264C80P17X17_1400X1400X100", "BGA", "511-STM32N657X0H3Q", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32N657X0H3Q?qs=%252BXxaIXUDbq0JgAtfYs%252BpjA%3D%3D", "High performance Arm Cortex-M55 MCU, 800MHz, 4.2MB SRAM, Neural-ART accelerator 600 GOPS, NeoChrom GPU, JPEG Codec, H-264 enc, HW crypto", "https://www.st.com/resource/en/datasheet/stm32n657a0.pdf", "1 mm"
+END_PART
+
+END.
