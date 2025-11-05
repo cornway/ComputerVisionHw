@@ -1194,16 +1194,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 132.08 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7461f54a-34d7-473c-809c-94beb2e0654f")
-	)
-	(wire
-		(pts
 			(xy 148.59 77.47) (xy 148.59 87.63)
 		)
 		(stroke
@@ -1304,6 +1294,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 78.74) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d801dac1-106d-4605-be88-09aa6a6d94ac")
+	)
+	(wire
+		(pts
 			(xy 124.46 105.41) (xy 116.84 105.41)
 		)
 		(stroke
@@ -1393,12 +1393,12 @@
 		(uuid "8a47b541-ab24-408a-ac3f-f6cd43d6e7dc")
 	)
 	(label "LCD_CS"
-		(at 132.08 86.36 90)
+		(at 132.08 78.74 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8abca605-e1f5-476a-9f07-b5e6db1c67d1")
 	)

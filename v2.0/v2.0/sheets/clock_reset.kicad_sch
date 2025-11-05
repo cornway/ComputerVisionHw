@@ -498,11 +498,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "v2.0:ABM11W-48.0000MHZ-7-B1U-T3"
+		(symbol "v2.0:X1C048000FK1H-HX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "X"
 				(at 0 0 0)
 				(effects
 					(font
@@ -510,16 +510,7 @@
 					)
 				)
 			)
-			(property "Value" "48MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2025-09-24:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+			(property "Value" "-"
 				(at 0 0 0)
 				(effects
 					(font
@@ -528,7 +519,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210612/25E10314463341ECFDA871AE575B9E16.pdf"
+			(property "Footprint" "ProLib_pcs_2025-10-28(1):CRYSTAL-SMD_4P-L1.6-W1.2-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -537,7 +528,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Frequency:48MHz Normal temperature Frequency Tolerance:±10ppm Normal temperature Frequency Tolerance:±10ppm Load Capacitor: Frequency Stability(Full temperature range):±10ppm Frequency Stability(Full temperature range):±10ppm Equivalent Series Resistance"
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190430/C254219_65CE5960D6D590705CD2D1791AB8517B.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -546,7 +537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "ABM11W-48.0000MHZ-7-B1U-T3"
+			(property "Description" "Type:- Frequency:- Load Capacitance:- Operating Temperature:- Operating Temperature:-"
 				(at 0 0 0)
 				(effects
 					(font
@@ -555,7 +546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ABRACON"
+			(property "Manufacturer Part" "X1C048000FK1H-HX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -564,7 +555,16 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C1985532"
+			(property "Manufacturer" "HELE(台湾加高)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C254219"
 				(at 0 0 0)
 				(effects
 					(font
@@ -582,7 +582,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part Name" "48MHz ±10ppm 7pF"
+			(property "LCSC Part Name" "HSX111AU 48.000MHZ 20PF ±30PPM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -591,10 +591,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "ABM11W-48.0000MHZ-7-B1U-T3_1_0"
+			(symbol "X1C048000FK1H-HX_1_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -2.54 0) (xy -1.27 0)
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -2.54 0) (xy -1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -604,20 +615,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy -1.27 -1.016) (xy -1.27 1.016)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 -3.81)
-					(radius 0.381)
 					(stroke
 						(width 0)
 						(type default)
@@ -638,9 +639,47 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -0.508 -1.778)
-					(end 0.508 1.778)
+				(polyline
+					(pts
+						(xy -0.762 -1.778) (xy -0.762 1.778) (xy -0.762 1.778) (xy 0.762 1.778) (xy 0.762 1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 0.762 -1.778) (xy 0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 1.778)
+						(xy -0.762 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy -0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.016) (xy 1.27 1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -663,7 +702,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 2.54 0) (xy 1.27 0)
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 2.54 0) (xy 1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -673,10 +712,10 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "4"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -691,10 +730,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "1"
+					(name "OSC1"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -709,10 +748,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "3"
+					(name "OSC2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -727,10 +766,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -1674,135 +1713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "v2.0:ABM11W-48.0000MHZ-7-B1U-T3")
-		(at 73.66 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b63c84a-d81d-4908-a001-f95aba49f061")
-		(property "Reference" "U13"
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "48MHz"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "v2.0:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210612/25E10314463341ECFDA871AE575B9E16.pdf"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Frequency:48MHz Normal temperature Frequency Tolerance:±10ppm Normal temperature Frequency Tolerance:±10ppm Load Capacitor: Frequency Stability(Full temperature range):±10ppm Frequency Stability(Full temperature range):±10ppm Equivalent Series Resistance"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "ABM11W-48.0000MHZ-7-B1U-T3"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ABRACON"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C1985532"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "48MHz ±10ppm 7pF"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1985532"
-			(at 73.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f630876-c2cc-4f53-95cb-66a0e343c474")
-		)
-		(pin "3"
-			(uuid "a088813b-ccd6-4589-a297-7fd21a0a04bd")
-		)
-		(pin "4"
-			(uuid "610b9f22-fdcf-4ce0-88b9-1cb3f45eb36d")
-		)
-		(pin "1"
-			(uuid "567f01f8-b9f2-43be-b181-1f884387b642")
-		)
-		(instances
-			(project ""
-				(path "/358f9123-977b-4c66-b028-35bace4b0bfc/5da2c01a-2aba-440f-863d-a28e43accbbd"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 121.92 270)
 		(unit 1)
@@ -1965,6 +1875,135 @@
 			(project "v0.1"
 				(path "/d5a88f92-aedf-4ebc-b36f-cbb4d57161cd/71a855a2-7e54-4076-a3fd-ce99cd30d9cf"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "v2.0:X1C048000FK1H-HX")
+		(at 73.66 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef1eebf6-d678-483f-b327-1314ac97de56")
+		(property "Reference" "X1"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "v2.0:CRYSTAL-SMD_4P-L1.6-W1.2-BL"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190430/C254219_65CE5960D6D590705CD2D1791AB8517B.pdf"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:- Frequency:- Load Capacitance:- Operating Temperature:- Operating Temperature:-"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X1C048000FK1H-HX"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HELE(台湾加高)"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C254219"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "HSX111AU 48.000MHZ 20PF ±30PPM"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C254219"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d4a9ed6e-bd77-4309-8891-1451448f9557")
+		)
+		(pin "1"
+			(uuid "e3297f10-0e2f-4a01-84be-047cd4deaca7")
+		)
+		(pin "2"
+			(uuid "3fb76873-691d-424f-b741-1769845c6701")
+		)
+		(pin "4"
+			(uuid "79917e82-d9cb-4f7b-861c-459cdefaa721")
+		)
+		(instances
+			(project ""
+				(path "/358f9123-977b-4c66-b028-35bace4b0bfc/5da2c01a-2aba-440f-863d-a28e43accbbd"
+					(reference "X1")
 					(unit 1)
 				)
 			)

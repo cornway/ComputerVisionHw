@@ -1,4 +1,4 @@
-25099415080081975
+25102938366279778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100730,6 +100730,13 @@ Integrated Circuit
 264
 264
 v2.0
+CRYSTAL-SMD_4P-L1.6-W1.2-BL
+
+
+0
+4
+4
+v2.0
 CRYSTAL-SMD_4P-L2.0-W1.6-BL
 
 
@@ -100750,6 +100757,13 @@ IND-SMD_L3.0-W3.0
 0
 2
 2
+v2.0
+OSC-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
 v2.0
 SW-SMD_SMXS-02K-TP
 

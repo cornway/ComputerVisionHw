@@ -11,6 +11,113 @@
 		(company "STMicroelectronics")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1826,6 +1933,12 @@
 		(uuid "e9676575-aa13-43d4-9a5f-55e6edba1773")
 	)
 	(junction
+		(at 30.48 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef71bb61-c5f2-4d2b-ac1c-b0d51373af30")
+	)
+	(junction
 		(at 58.42 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2947,6 +3060,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 71.12) (xy 34.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988c43a4-cf83-4767-99e6-b9e186e6e5a5")
+	)
+	(wire
+		(pts
 			(xy 245.11 113.03) (xy 247.65 113.03)
 		)
 		(stroke
@@ -3557,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 64.77) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f717a1db-dd55-401e-96d5-c82519cfeb48")
+	)
+	(wire
+		(pts
 			(xy 295.91 77.47) (xy 295.91 81.28)
 		)
 		(stroke
@@ -3607,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 34.29 71.12)
+			(xy 19.05 71.12) (xy 30.48 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4647,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADN8XgAA"
+			"8FlJNHxeAABwm7M0fF4AACBFZzV8XgAAsGmKNXxeAAAgAc9bLHEAAIB/jTR8XgAA4CFvNXxeAADw"
+			"v+EzfF4AAJDcbTR8XgAAUMuwNHxeAABwhHk1fF4AADBJUjR8XgAAAOKzNHxeAABQRmc1fF4AAECG"
+			"ijV8XgAAAAAAAAAAAACAgI00fF4AAGAjbzV8XgAA0MDhM3xeAABA3m00fF4AAGDRsDR8XgAAELt6"
+			"NXxeAAAQnlI0fF4AAND2szR8XgAAEEdnNXxeAACwh4o1fF4AAMD0DTV8XgAAoIGNNHxeAACgI281"
+			"fF4AANDB4TN8XgAA0N1tNHxeAACw1rA0fF4AAODqejV8XgAAoJ5SNHxeAABgdrQ0fF4AAPBHZzV8"
+			"XgAAUIeKNXxeAABg9Q01fF4AAOCCjTR8XgAAQDpvNXxeAADwwuEzfF4AAPDgbTR8XgAAYNiwNHxe"
+			"AAAgfnc1fF4AAHD41jN8XgAA0I+0NHxeAADwSGc1fF4AAOCOijV8XgAA/6XO0nleAAAwgo00fF4A"
+			"AOA5bzV8XgAAMMThM3xeAADw4W00fF4AAPDXsDR8XgAAQAR4NXxeAAAAoFI0fF4AAEAiZjR8XgAA"
+			"gEtnNXxeAADwj4o1fF4AAMDxDTV8XgAAYISNNHxeAACwPm81fF4AAIDD4TN8XgAAEONtNHxeAACQ"
+			"2rA0fF4AAPAEeDV8XgAA8IJSNHxeAADQO2Y0fF4AAFBMZzV8XgAAoJOKNXxeAAAAAAAAAAAAAACG"
+			"jTR8XgAAwD9vNXxeAACwxeEzfF4AACDpbTR8XgAAkNuwNHxeAADQBXg1fF4AACChUjR8XgAAUEZo"
+			"NHxeAADARGc1fF4AAAAAAAAAAAAAAAAAAAAAAADwhI00fF4AAMBCbzV8XgAAUMfhM3xeAABw7m00"
+			"fF4AALDcsDR8XgAA0AZ4NXxeAAAAolI0fF4AAHBgaDR8XgAAsE9nNXxeAAAQmYo1fF4AAP////8A"
+			"AAAAgIWNNHxeAABwRG81fF4AAEDG4TN8XgAA8O9tNHxeAADA5rA0fF4AAGCzdDV8XgAAAKNSNHxe"
+			"AADgiw41fF4AAJBQZzV8XgAAgJyKNXxeAAAgO+DJLHEAAMCFjTR8XgAAQEdvNXxeAADQxuEzfF4A"
+			"AIDvbTR8XgAAUOewNHxeAACgtHQ1fF4AACCkUjR8XgAA4JIONXxeAAAAU2c1fF4AAGCdijV8XgAA"
+			"YmlhcwAAAAAwe400fF4AAHBIbzV8XgAAEMfhM3xeAACA8m00fF4AAPDosDR8XgAAsKh0NXxeAABg"
+			"pVI0fF4AAOAYDzV8XgAAAFRnNXxeAABAoYo1fF4AAAAAAAAAAAAAkIaNNHxeAAAwSW81fA=="
 		)
 	)
 	(image
@@ -5930,6 +6081,24 @@
 			"dhnDUL5S90lC9uLE7F3yoqN9PKf7WRFRvkp3MKOku7145bXcTxKyP03MCbQQxQ/2sRJyiahEo9t+"
 			"u7C7vXhfenGp5h9fV15vZfV2gDW3ynqYu7u7rU8u2JSq+DW9eF2oU3NtLsAD/wfyuad7HcD0GgAA"
 			"AABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -12155,6 +12324,73 @@
 			(project "v2.0"
 				(path "/358f9123-977b-4c66-b028-35bace4b0bfc/71e29154-573e-421d-a811-f0a5c599e99a"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f418eb87-0067-48bc-b869-5ed784751251")
+		(property "Reference" "TP9"
+			(at 33.02 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 33.02 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e76cb1cd-5717-4be2-ac7e-671293448d9d")
+		)
+		(instances
+			(project "v2.0"
+				(path "/358f9123-977b-4c66-b028-35bace4b0bfc/71e29154-573e-421d-a811-f0a5c599e99a"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
