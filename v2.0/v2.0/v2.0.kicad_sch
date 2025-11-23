@@ -1415,6 +1415,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Issues with REV1.0 :\n* NOR IC \"IO1\" pin has \"ringing\", I pust shunt resistor,\nbut maybe lowering frequency may solve it;\nimpedance missmatch ?\n* Add BootRom Uart TX pin : PG10"
+		(exclude_from_sim no)
+		(at 34.29 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28c359d5-a407-4b42-9ba4-d8c1dc9dc85e")
+	)
 	(junction
 		(at 120.65 91.44)
 		(diameter 0)
